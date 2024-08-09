@@ -12,16 +12,24 @@
     <h1>Working Hours</h1>
     <div id="workingHours"></div>
     <script>
-        const API_BASE_URL = '//apexaibackend.us-east-1.elasticbeanstalk.com';
+        const API_BASE_URL = 'https://cors-anywhere.herokuapp.com/http://apexaibackend.us-east-1.elasticbeanstalk.com';
         fetch(`${API_BASE_URL}/bookings`)
             .then(response => response.json())
             .then(data => {
                 document.getElementById('bookings').innerHTML = JSON.stringify(data, null, 2);
+            })
+            .catch(error => {
+                console.error('Error fetching bookings:', error);
+                document.getElementById('bookings').innerHTML = 'Error fetching bookings';
             });
         fetch(`${API_BASE_URL}/working_hours`)
             .then(response => response.json())
             .then(data => {
                 document.getElementById('workingHours').innerHTML = JSON.stringify(data, null, 2);
+            })
+            .catch(error => {
+                console.error('Error fetching working hours:', error);
+                document.getElementById('workingHours').innerHTML = 'Error fetching working hours';
             });
     </script>
 </body>
