@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ApexAppointment/static/css/main.f6aaff21.css",
-    "main.js": "/ApexAppointment/static/js/main.2eedd11d.js",
+    "main.js": "/ApexAppointment/static/js/main.2d86013b.js",
     "static/js/453.3ab8d62e.chunk.js": "/ApexAppointment/static/js/453.3ab8d62e.chunk.js",
     "index.html": "/ApexAppointment/index.html",
     "main.f6aaff21.css.map": "/ApexAppointment/static/css/main.f6aaff21.css.map",
-    "main.2eedd11d.js.map": "/ApexAppointment/static/js/main.2eedd11d.js.map",
+    "main.2d86013b.js.map": "/ApexAppointment/static/js/main.2d86013b.js.map",
     "453.3ab8d62e.chunk.js.map": "/ApexAppointment/static/js/453.3ab8d62e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6aaff21.css",
-    "static/js/main.2eedd11d.js"
+    "static/js/main.2d86013b.js"
   ]
 }
