@@ -11,16 +11,13 @@
     
     <h1>Working Hours</h1>
     <div id="workingHours"></div>
-
     <script>
-        const API_BASE_URL = 'http://apexaibackend.us-east-1.elasticbeanstalk.com';
-
+        const API_BASE_URL = '//apexaibackend.us-east-1.elasticbeanstalk.com';
         fetch(`${API_BASE_URL}/bookings`)
             .then(response => response.json())
             .then(data => {
                 document.getElementById('bookings').innerHTML = JSON.stringify(data, null, 2);
             });
-
         fetch(`${API_BASE_URL}/working_hours`)
             .then(response => response.json())
             .then(data => {
