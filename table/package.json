@@ -2,7 +2,7 @@
   "name": "table",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SaiRohithVulapuApex.github.io/ApexAppointment",
+  "homepage": "http://SaiRohithVulapuApex.github.io/ApexAppointment",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

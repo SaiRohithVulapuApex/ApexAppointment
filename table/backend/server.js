@@ -30,7 +30,6 @@ app.get('/bookings', async (req, res) => {
 app.get('/working_hours', async (req, res) => {
   try {
     const result = await pool.query('SELECT * FROM working_hours');
-    console.log(result.rows)
     res.json(result.rows);
   } catch (err) {
     console.error(err);
